@@ -43,9 +43,8 @@
 
 
 二、在Gi">
-<meta property="og:image" content="http://yoursite.com/deploy.png">
 <meta property="og:image" content="http://yoursite.com/2017/03/10/安装部署hexo到Github/deploy.png">
-<meta property="og:updated_time" content="2017-03-10T09:53:57.930Z">
+<meta property="og:updated_time" content="2017-03-10T10:02:42.170Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="安装部署hexo到Github">
 <meta name="twitter:description" content="一、本地配置Hexo
@@ -65,7 +64,7 @@
 
 
 二、在Gi">
-<meta name="twitter:image" content="http://yoursite.com/deploy.png">
+<meta name="twitter:image" content="http://yoursite.com/2017/03/10/安装部署hexo到Github/deploy.png">
   
     <link rel="alternate" href="/atom.xml" title="朱绍军的博客" type="application/atom+xml">
   
@@ -157,7 +156,7 @@
 <li>修改配置文件_config.yml的deploy部分，<strong>注意空格</strong><figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="attr">type:</span> <span class="string">git</span></div><div class="line"><span class="attr">repository:</span> <span class="attr">https://github.com/zhushaojun/zhushaojun.github.io.git</span></div><div class="line"><span class="attr">branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure>
 </li>
 </ol>
-<p><img src="/deploy.png" alt=""><br><img src="/2017/03/10/安装部署hexo到Github/deploy.png" alt="This is an example image" title="This is an example image"></p>
+<img src="/2017/03/10/安装部署hexo到Github/deploy.png" alt="配置文件截图" title="配置文件截图">
 <ol>
 <li><p>配置site部分【可选】</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Site</span></div><div class="line"><span class="attr">title:</span> <span class="string">朱绍军的博客</span></div><div class="line"><span class="attr">subtitle:</span></div><div class="line"><span class="attr">description:</span></div><div class="line"><span class="attr">author:</span> <span class="string">朱绍军</span></div><div class="line"><span class="attr">language:</span> <span class="string">zh-CN</span></div><div class="line"><span class="attr">timezone:</span> <span class="string">Asia/Shanghai</span></div></pre></td></tr></table></figure>
@@ -168,12 +167,21 @@
 <li><p>配置git全局邮箱与名字</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.email &quot;shj.zhu@gmail.com&quot;</div><div class="line">git config --global user.name &quot;Shaojun Zhu&quot;</div></pre></td></tr></table></figure>
 </li>
+<li><p>生成博客</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure>
+</li>
+<li><p>部署博客</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo deploy</div></pre></td></tr></table></figure>
+</li>
+</ol>
+<h1 id="三、添加新文章"><a href="#三、添加新文章" class="headerlink" title="三、添加新文章"></a>三、添加新文章</h1><ol>
+<li>生成新文章<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">hexo new 新博客</div><div class="line">``` </div><div class="line">2. 用编辑器修改文章：myhexo\source\_posts\新博客.md</div><div class="line">3. 生成并发布到Github</div><div class="line">``` shell</div><div class="line">hexo d -g</div></pre></td></tr></table></figure></li>
 </ol>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/10/安装部署hexo到Github/" data-id="cj03n0oxm0002ywwfc3v6hywd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/10/安装部署hexo到Github/" data-id="cj03nme3n0002rowf9rl5chs1" class="article-share-link">Share</a>
       
       
     </footer>
@@ -182,11 +190,11 @@
     
 <nav id="article-nav">
   
-    <a href="/2017/03/10/kjei/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2017/03/10/新博客/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
-          kjei
+          新博客
         
       </div>
     </a>
@@ -231,7 +239,7 @@
       <ul>
         
           <li>
-            <a href="/2017/03/10/kjei/">kjei</a>
+            <a href="/2017/03/10/新博客/">新博客</a>
           </li>
         
           <li>
